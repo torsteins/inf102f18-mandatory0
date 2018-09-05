@@ -171,3 +171,5 @@ When done, you must use write a client which utilize this data structure to solv
  
  Feel free to add JUnit test cases to test that your data structure works as expected.
  
+ 
+ ##### Good luck!
