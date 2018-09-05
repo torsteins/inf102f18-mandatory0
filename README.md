@@ -62,7 +62,9 @@ So follow these instructions carefully.
 
  * To start working with the mandatory assignment, clone or download this repository to
  your local machine. The project is in the maven format, so it should be easy to import
- to popular IDE's such as Eclipse and Intellij. 
+ to popular IDE's such as Eclipse and Intellij.
+ 
+ (Intellij note: Before you download, go to Preferences/Settings -> Build, Execution and Deployment -> Build Tools -> Maven -> Importing and select "Import Maven projects automatically")
  * All code you write should reside in the package no.uib.ii.inf102.f18.mandatory0
  * All code should have correct class names as according to the task specification
  
