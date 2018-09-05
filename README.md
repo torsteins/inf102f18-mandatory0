@@ -104,7 +104,7 @@ So follow these instructions carefully.
 
 Solve the problem [Reverse Polish to Infix notation (easy)](https://uib.kattis.com/problems/uib.revpolishtoinfixeasy) on Kattis. You must *both* submit on Kattis, and also add your code to the maven project you are handing in. 
 
-The problem is graded on both correctness and style. For this problem, there is no discussion part that goes into the pdf. There is, however, a 2 point if your code is also able to beat [Reverse Polish to Infix notation (hard)](https://uib.kattis.com/problems/uib.revpolishtoinfixhard).
+The problem is graded on both correctness and style. For this problem, there is no discussion part that goes into the pdf. There is, however, a 2 point bonus towards the assignment if your code is also able to beat [Reverse Polish to Infix notation (hard)](https://uib.kattis.com/problems/uib.revpolishtoinfixhard).
 
 
 ## Big-O Quiz (15 points)
@@ -119,7 +119,7 @@ Function |   f(n)  |   ~    |  O()
  ... | ... | ... | ...
  `Z` | ... | ... | ...
  
- and fill in the blanks. To get full score, you must get the 24 functions B - Y correctly. The column for f(n) is the hardest column to fill, you need to be careful with rounding.
+ and fill in the blanks. To get full score, you must get the 24 functions B - Y correctly. The column for f(n) is the hardest column to fill, you need to be careful with rounding. There is a 2 point bonus if you get *everything* right, inluding `Z`.
  
 
 ## Union Find (15 points)
@@ -146,7 +146,7 @@ public void union(int p, int q) {
     id[p] = q;
 }
 ```
-Describe a scheme for making `m` calls to union and/or find such that the number of array accesses becomes maximum. Analyze how many array accesses will be make with your scheme as a function of `n` and `m`.
+Describe a scheme for making `m` calls to union and/or find such that the number of array accesses becomes maximum. Analyse how many array accesses will be made with your scheme as a function of `n` and `m`.
 
 
 ## Sortable Linked List (30 points)
