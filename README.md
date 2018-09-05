@@ -1,4 +1,6 @@
 # Mandatory 0
+For the course [INF102 Fall 2018](https://mitt.uib.no/courses/12780)
+
 Deadline: September 27, 2018 at 23:59
 
 ## Organizational notes
@@ -98,6 +100,10 @@ So follow these instructions carefully.
  
     * To accomplish the two points above, it is easiest to copy the contents of your
     main directory to a new folder named *abc123*, and then zip that folder.
+    
+  * Submit the .zip file at the assignment on mitt.uib before the deadline
+  
+  * Late assignments will be accepted for 24 hours, with a 20 point penalty.
 
 
 ## Reverse Polish to Infix notation (10 points)
