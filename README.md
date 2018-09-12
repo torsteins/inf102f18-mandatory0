@@ -1,7 +1,7 @@
 # Mandatory 0
 For the course [INF102 Fall 2018](https://mitt.uib.no/courses/12780)
 
-Deadline: September 27, 2018 at 23:59
+Deadline: September 26, 2018 at 23:59
 
 ## Organizational notes
 
