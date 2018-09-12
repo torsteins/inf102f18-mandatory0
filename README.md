@@ -150,7 +150,7 @@ This problem is partially coding, and partially for the pdf. The coding problems
  
  d) Assume the following implementations of find and union in a UnionFind instance with `n` singleton elements.
 ```java
-public void find(int p) {
+public int find(int p) {
     while (id[p] != p) p = id[p];
     return p;
 }
