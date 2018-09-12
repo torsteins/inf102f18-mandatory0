@@ -79,7 +79,7 @@ So follow these instructions carefully.
  *I am a student taking this course and I want to register for it on Kattis*, and 
  enter the keyphrase *inf102kattis*.
 
-#### Typing answers
+#### Non-code answers
 
  * The answer to non-code questions should be contained in a single pdf named `String.format("%s.pdf", yourid)`
  where *yourid* is your UiB SEBRA account id handle (for example, if your UiB id is *abc123*,
@@ -129,6 +129,13 @@ Function |   f(n)  |   ~    |  O()
  
  and fill in the blanks. To get full score, you must get the 24 functions B - Y correctly. The column for f(n) is the hardest column to fill, you need to be careful with rounding. There is a 2 point bonus if you get *everything* right, inluding `Z`.
  
+ 
+ #### *Clarifications:*
+  * *You may use the sum notation in your function f, for instance $f(n) = \sum_{i=0}^n i^2$*
+  * *For finding ~ and big-O, in can sometimes be useful to plug your formulae f into Wolphram Alpha (I'm looking at you, `M`).*
+  * *In function `N`, the number of steps is non-deterministic. In this case, let your formula denote the worst case runtime.*
+  * *In function `Y`, the number of steps is highly dependent on certain properties of the input. Let your formula f denote the worst case runtime for any input in the vicinity of `n`, ignoring that the funcion sometimes terminate earlier.*
+ 
 
 ## Union Find (15 points)
 
@@ -172,6 +179,10 @@ In addition to implementing the interface according to the natural specification
 When done, you must use write a client which utilize this data structure to solve the Kattis problem [Troll Book](https://uib.kattis.com/problems/uib.trollbook). You must *both* submit on Kattis, and also inclued your code to the maven project you are handing in. The problem is graded on both correctness and style. 
  
  Feel free to add JUnit test cases to test that your data structure works as expected.
+ 
+#### *Clarifications:*
+ * *You may use arrays of length no longer than O(log n), where n is the number of items in the list.*
+ * *You must use the `sort()` algorithm of your class `SortableLinkedList` when solving Troll Book.*
  
  
  ##### Good luck!
