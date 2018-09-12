@@ -131,7 +131,7 @@ Function |   f(n)  |   ~    |  O()
  
  
  #### *Clarifications:*
-  * *You may use the sum notation in your function f, for instance $f(n) = \sum_{i=0}^n i^2$*
+  * *You may use the sum notation in your function f, for instance <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=0}^n&space;i^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^n&space;i^2" title="\sum_{i=0}^n i^2" /></a>*
   * *For finding ~ and big-O, in can sometimes be useful to plug your formulae f into Wolphram Alpha (I'm looking at you, `M`).*
   * *In function `N`, the number of steps is non-deterministic. In this case, let your formula denote the worst case runtime.*
   * *In function `Y`, the number of steps is highly dependent on certain properties of the input. Let your formula f denote the worst case runtime for any input in the vicinity of `n`, ignoring that the funcion sometimes terminate earlier.*
