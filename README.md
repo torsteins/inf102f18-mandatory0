@@ -171,7 +171,7 @@ Make a class `SortableLinkedList` which implements the interface `ISortableList`
 
 In addition to implementing the interface according to the natural specifications, we have some additional constraints your class needs to fulfill:
 
- * It must be based on a linked list - you may not use any form of array.
+ * It must be based on a linked list - you may not use any form of array. *(but see clarifications below)*
  * add(e) must take O(1) time
  * add(0, e) must take O(1) time
  * remove(0) must take O(1) time
