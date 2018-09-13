@@ -177,7 +177,7 @@ In addition to implementing the interface according to the natural specification
  * remove(0) must take O(1) time
  * sort() must take O(n log n) time (hint: merge sort)
  
-When done, you must use write a client which utilize this data structure to solve the Kattis problem [Troll Book](https://uib.kattis.com/problems/uib.trollbook). You must *both* submit on Kattis, and also inclued your code to the maven project you are handing in. The problem is graded on both correctness and style. 
+When done, you must use write a client which utilize this data structure to solve the Kattis problem [Troll Book](https://uib.kattis.com/problems/uib.trollbook). You must *both* submit on Kattis, and also include your code to the maven project you are handing in. The problem is graded on both correctness and style. 
  
  Feel free to add JUnit test cases to test that your data structure works as expected.
  
