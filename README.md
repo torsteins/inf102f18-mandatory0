@@ -131,8 +131,9 @@ Function |   f(n)  |   ~    |  O()
  
  
  #### *Clarifications:*
-  * *You may use the sum notation in your function f, for instance <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=0}^n&space;i^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^n&space;i^2" title="\sum_{i=0}^n i^2" /></a>. However, you may not use sum notation when giving ~ or big-O notation.*
-  * *For finding ~ and big-O, in can sometimes be useful to plug your formulae f into Wolphram Alpha (I'm looking at you, `M`).*
+  * *Give the simplest possible function w that describes the growth. For instance, let f(n) = 2n<sup>2</sup> + 3n + 1. Then it is technically true that f(n) is in O(100n<sup>100000</sup>), but that's not the answer we're looking for -- only O(n<sup>2</sup>) will be accepted as the correct answer.*
+  * *You may use the sum notation in your function f, for instance <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=0}^n&space;i^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^n&space;i^2" title="\sum_{i=0}^n i^2" /></a>. However, you should make simplifications if you can, and you may not use sum notation when giving ~ or big-O notation.*
+  * *For finding ~ and big-O, in can sometimes be useful to plug your formulae f into Wolphram Alpha, especially if your function f is using sum notation (I'm looking at you, `M`).*
   * *In function `N`, the number of steps is non-deterministic. In this case, let your formula denote the worst case runtime.*
   * *In function `Y`, the number of steps is highly dependent on certain properties of the input. Let your formula f denote the worst case runtime for any input in the vicinity of `n`, ignoring that the funcion sometimes terminate earlier.*
  
