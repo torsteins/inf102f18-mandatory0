@@ -187,3 +187,28 @@ When done, you must use write a client which utilize this data structure to solv
  
  
  ##### Good luck!
+ 
+ 
+### Appendix: Style Guide
+ 
+These rules applies to all source code that is handed in. These guidelines are loosely based on [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html), though with some minor differences.
+
+##### Most important
+  * Make your code easy to read.
+    * Comment tricky parts of the code.
+    * Use descriptive and logical variable names and function names.
+    * Break the code into appropriate functions for readablity and code reuse; no function should ideally be more than 30 lines of code (with the exception of extremely monotone code, such as sanity tests).
+    * Write javadoc comments for functions that are not self-explanatory
+  * All files should use UTF-8 characeter encoding.
+  
+##### Also important
+  * The only whitespace characters allowed are spaces and newlines (tabs are not allowed).
+    * Each indention level increase by 4 spaces.
+  * No line may exceed 120 characters - lines exceeding this limit must be line-wrapped.
+    * Some exceptions, e.g. very long URL's that don't fit on one line.
+  * File name should be the same as the name of the class, written in UpperCamelCase.
+  * Function names, parameter names and variable names should be written in lowerCamelCase.
+  * Constants should be written in ALL_CAPS.
+  * No line breaks before open braces (`{`).
+  * Blank lines should be used sparingly, but can be used to separate logic blocks and increase readability
+  
