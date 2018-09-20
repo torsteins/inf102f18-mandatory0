@@ -184,6 +184,7 @@ When done, you must use write a client which utilize this data structure to solv
 #### *Clarifications:*
  * *You may use arrays of length no longer than O(log n), where n is the number of items in the list.*
  * *You must use the `sort()` algorithm of your class `SortableLinkedList` when solving Troll Book.*
+ * *Even though `add(e)` and `add(0, e)` should both take O(1) time, that does not mean that `add(i, e)` should take O(1) time - an implementation which does it in O(i) time is fine (similar for remove).*
  
  
  ##### Good luck!
