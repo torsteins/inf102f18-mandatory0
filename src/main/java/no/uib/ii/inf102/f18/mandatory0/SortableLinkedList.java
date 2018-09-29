@@ -49,7 +49,7 @@ public class SortableLinkedList<E extends Comparable<E>> implements ISortableLis
     }
 
     private Node getNode(int index) {
-        verifyIndex(index);
+        verifyIndexInRange(index);
         Node node = this.head;
         for (int i = 0; i < index; i++) {
             node = node.next;
@@ -57,7 +57,7 @@ public class SortableLinkedList<E extends Comparable<E>> implements ISortableLis
         return node;
     }
 
-    private final void verifyIndex(int index) {
+    private final void verifyIndexInRange(int index) {
         if (index < 0 || index >= this.size)
             throw new IndexOutOfBoundsException(String.format("index=%d, size=%d", index, this.size));
     }
@@ -77,7 +77,7 @@ public class SortableLinkedList<E extends Comparable<E>> implements ISortableLis
     }
 
     public E remove(int index) {
-        verifyIndex(index);
+        verifyIndexInRange(index);
         E res = null;
 
         if (index == 0) {
