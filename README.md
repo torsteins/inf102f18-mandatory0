@@ -165,7 +165,7 @@ public void union(int p, int q) {
 Describe a scheme for making `m` calls to union and/or find such that the number of array accesses becomes maximum. Analyse how many array accesses will be made with your scheme as a function of `n` and `m`.
 
 #### *Clarifications*
-  * *In task (b), you may use whichever implementation of the union-find data structure you like. Quick-find and quick-union are two examples of possible implementations; however, neither is likely to be both fast enough and correct for this exercise without further optimizations and/or adjustments.*
+  * *In task (b), you may use whichever implementation of the union-find data structure you like. Quick-find and quick-union are two examples of possible implementations; however, neither is likely to work for this exercise without adjustments.*
 
 
 ## Sortable Linked List (30 points)
