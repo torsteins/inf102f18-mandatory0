@@ -4,4 +4,4 @@ The exercise itself is [here](https://github.com/torsteins/inf102f18-mandatory0/
 
 The solution consists of two main parts:
  * Textual solutions in a in the main directory ([vag002.pdf](vag002.pdf))
- * Coded solutions in the directory [src/main/java/no/uib/uib/ii/inf102/f18/mandatory0](src/main/java/no/uib/uib/ii/inf102/f18/mandatory0)
+ * Coded solutions in the directory [src/main/java/no/uib/ii/inf102/f18/mandatory0](src/main/java/no/uib/ii/inf102/f18/mandatory0)
